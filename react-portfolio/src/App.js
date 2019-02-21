@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import {Footer, Section, Nav, Contact, Work} from './components/'
-
-
+import React, { Component } from "react";
+import { Footer, Section, Nav, Contact, Work, Me } from "./components/";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // import './App.css';
 
@@ -9,36 +8,15 @@ class App extends Component {
   render() {
     return (
       <div id="wrapper">
-
-      {/* <!-- Nav --> */}
-      <Nav />
-
-      {/* <!-- Main --> */}
+        <Nav />
         <div id="main">
-
-          {/* <!-- Me --> */}
-            <article id="home" className="panel intro">
-              <header>
-                <h1>Jane Doe</h1>
-                <p>Senior Astral Projectionist</p>
-              </header>
-              <a href="#work" className="jumplink pic">
-                <span className="arrow icon fa-chevron-right"><span>See my work</span></span>
-                <img src="images/me.jpg" alt="" />
-              </a>
-            </article>
-
-
-            <Work />
-            <Section />
-
-             <Contact />
-
+        <Route exact path="/" component={Me} />
+        <Route exact path="/work" component={Work} />
+        <Route exact path="/contact" component={Contact} />
         </div>
 
-      <Footer />
-
-    </div>
+        <Footer />
+      </div>
     );
   }
 }

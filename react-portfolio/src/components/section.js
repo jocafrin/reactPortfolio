@@ -48,3 +48,5 @@ class Section extends Component {
 }
 
 export default Section;
+
+// Create staggered sections, remove grid

@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
+
 
 export default () => {
   return (
@@ -6,7 +7,7 @@ export default () => {
       <a href="#" className="icon fa-home">
         <span>Home</span>
       </a>
-      <a href="#work" className="icon fa-folder">
+      <a href="#work" className="icon fa-briefcase" >
         <span>Work</span>
       </a>
       <a href="#contact" className="icon fa-envelope">
@@ -18,3 +19,6 @@ export default () => {
     </nav>
   );
 };
+
+
+
