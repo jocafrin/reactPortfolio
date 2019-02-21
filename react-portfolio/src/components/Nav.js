@@ -1,25 +1,30 @@
 import React from "react";
-import {Link} from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
 
 export default () => {
   return (
     <nav id="nav">
-      <Link to="/" className="icon fa-home">
+      <NavLink exact activeClassName="active" className="icon fa-home" to="/">
         <span>Home</span>
-      </Link>
-      <Link to="/work" className="icon fa-briefcase" >
+      </NavLink>
+      <NavLink
+        to="/work"
+        activeClassName="active"
+        className="icon fa-folder"
+      >
         <span>Work</span>
-      </Link>
-      <Link to="/contact" className="icon fa-envelope">
+      </NavLink>
+      <NavLink
+        to="/contact"
+        activeClassName="active"
+        className="icon fa-envelope"
+      >
         <span>Contact</span>
-      </Link>
+      </NavLink>
+
       <a href="https://twitter.com/ajlkn" className="icon fa-linkedin">
         <span>LinkedIn</span>
       </a>
     </nav>
   );
 };
-
-
-
