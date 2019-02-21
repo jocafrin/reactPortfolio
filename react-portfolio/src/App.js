@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Footer, Section, Nav, Contact} from './components/'
+import {Footer, Section, Nav, Contact, Work} from './components/'
 
 
 
@@ -28,20 +28,10 @@ class App extends Component {
               </a>
             </article>
 
-          {/* <!-- Work --> */}
-            <article id="work" className="panel">
-              <header>
-                <h2>Work</h2>
-              </header>
-              <p>
-                Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                luctus elit eget interdum.
-              </p>
 
-            </article>
+            <Work />
             <Section />
-          {/* <!-- Contact --> */}
+
              <Contact />
 
         </div>
