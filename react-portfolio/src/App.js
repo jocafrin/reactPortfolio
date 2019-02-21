@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Footer from './components/footer'
-import Section from './components/section';
+import {Footer, Section} from './components/'
+
+
 
 // import './App.css';
 
