@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default (params) => {
     return (
         <div id="footer">
@@ -9,6 +10,7 @@ export default (params) => {
               Design: <a href="http://html5up.net">HTML5 UP</a>
             </li>
           </ul>
+
         </div>
       );
 

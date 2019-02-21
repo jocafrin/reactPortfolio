@@ -1,18 +1,19 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 
 export default () => {
   return (
     <nav id="nav">
-      <a href="#" className="icon fa-home">
+      <Link to="/" className="icon fa-home">
         <span>Home</span>
-      </a>
-      <a href="#work" className="icon fa-briefcase" >
+      </Link>
+      <Link to="/work" className="icon fa-briefcase" >
         <span>Work</span>
-      </a>
-      <a href="#contact" className="icon fa-envelope">
+      </Link>
+      <Link to="/contact" className="icon fa-envelope">
         <span>Contact</span>
-      </a>
+      </Link>
       <a href="https://twitter.com/ajlkn" className="icon fa-linkedin">
         <span>LinkedIn</span>
       </a>

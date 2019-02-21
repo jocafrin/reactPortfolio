@@ -1,4 +1,5 @@
 import React from "react";
+import Section from "./Section"
 
 export default params => {
   return (
@@ -11,6 +12,7 @@ export default params => {
         elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
         posuere cubilia luctus elit eget interdum.
       </p>
+      <Section />
     </article>
   );
 };
