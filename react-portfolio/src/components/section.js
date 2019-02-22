@@ -6,9 +6,9 @@ class Section extends Component {
         <section>
         <div className="row">
           <div className="col-4 col-6-medium col-12-small">
-            <a href="#" className="image fit"><img src="images/pic01.jpg" alt=""/></a>
+            <a href="https://devprofiles.co/" className="image fit"><img src="images/devprof.png" alt="screenshot of devpofiles.co landing page"/></a>
           </div>
-          <div className="col-4 col-6-medium col-12-small">
+          {/* <div className="col-4 col-6-medium col-12-small">
             <a href="#" className="image fit"><img src="images/pic02.jpg" alt=""/></a>
           </div>
           <div className="col-4 col-6-medium col-12-small">
@@ -40,7 +40,7 @@ class Section extends Component {
           </div>
           <div className="col-4 col-6-medium col-12-small">
             <a href="#" className="image fit"><img src="images/pic12.jpg" alt=""/></a>
-          </div>
+          </div> */}
         </div>
       </section>
     )

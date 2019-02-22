@@ -8,9 +8,7 @@ export default params => {
         <h2>Work</h2>
       </header>
       <p>
-        Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu
-        elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-        posuere cubilia luctus elit eget interdum.
+        Checkout some of my recent work below:
       </p>
       <Section />
     </article>

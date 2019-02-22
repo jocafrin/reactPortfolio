@@ -7,22 +7,22 @@ export default () => {
       <NavLink exact activeClassName="active" className="icon fa-home" to="/">
         <span>Home</span>
       </NavLink>
-      <NavLink
-        to="/work"
-        activeClassName="active"
-        className="icon fa-folder"
-      >
+
+      <NavLink to="/work" activeClassName="active" className="icon fa-folder">
         <span>Work</span>
       </NavLink>
-      <NavLink
-        to="/contact"
-        activeClassName="active"
-        className="icon fa-envelope"
-      >
-        <span>Contact</span>
-      </NavLink>
 
-      <a href="https://twitter.com/ajlkn" className="icon fa-linkedin">
+           <a
+        href="https://github.com/jocafrin"
+        className="icon fa-github"
+      >
+        <span>GitHub</span>
+      </a>
+
+      <a
+        href="www.linkedin.com/in/jocatherine-griggs"
+        className="icon fa-linkedin"
+      >
         <span>LinkedIn</span>
       </a>
     </nav>

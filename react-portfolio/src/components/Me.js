@@ -5,15 +5,16 @@ export default params => {
   return (
     <article id="home" className="panel intro">
       <header>
-        <h1>Jane Doe</h1>
-        <p>Senior Astral Projectionist</p>
+        <h1>JoCatherine Griggs</h1>
+        <h3>Front End Web Developer</h3>
+        <p>Lambda School Graduate</p>
       </header>
       <Link
         to="/work" className="jumplink pic">
         <span className="arrow icon fa-chevron-right">
           <span>See my work</span>
         </span>
-        <img src="images/me.jpg" alt="" />
+        <img src="images/me1.jpg" alt="" />
       </Link>
     </article>
   );
