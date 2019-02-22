@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Footer, Section, Nav, Contact, Work, Me } from "./components/";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Footer, Nav, Me, Contact, Work  } from "./components/";
+import { Route } from "react-router-dom";
 
 // import './App.css';
 
