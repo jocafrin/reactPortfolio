@@ -12,15 +12,12 @@ export default () => {
         <span>Work</span>
       </NavLink>
 
-           <a
-        href="https://github.com/jocafrin"
-        className="icon fa-github"
-      >
+      <a href="//github.com/jocafrin" className="icon fa-github">
         <span>GitHub</span>
       </a>
 
       <a
-        href="www.linkedin.com/in/jocatherine-griggs"
+        href="//linkedin.com/in/jocatherine-griggs"
         className="icon fa-linkedin"
       >
         <span>LinkedIn</span>
