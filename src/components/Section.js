@@ -8,10 +8,10 @@ class Section extends Component {
           <div className="col-4 col-6-medium col-12-small">
             <a href="https://devprofiles.co/" className="image fit" target="_blank" rel=" noopener noreferrer"><img src="images/devprof.png" alt="screenshot of devpofiles.co landing page"/></a>
           </div>
-          {/* <div className="col-4 col-6-medium col-12-small">
-            <a href="#" className="image fit"><img src="images/pic02.jpg" alt=""/></a>
-          </div>
           <div className="col-4 col-6-medium col-12-small">
+            <a href="https://modest-yonath-c782d6.netlify.com/" className="image fit" target="_blank" rel=" noopener noreferrer"><img src="images/OverProject.png" alt="banner image of Flutter app"/></a>
+          </div>
+          {/* <div className="col-4 col-6-medium col-12-small">
             <a href="#" className="image fit"><img src="images/pic03.jpg" alt=""/></a>
           </div>
           <div className="col-4 col-6-medium col-12-small">
